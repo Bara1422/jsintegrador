@@ -1,0 +1,368 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-width: 576px;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    background-color: #000;
+    
+}
+ul, li{
+    margin:0;
+    padding: 0;
+}
+.header{
+    
+    height: 100vh;
+   
+    background-position: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.header-nav-top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 5.6rem;
+    background-color: #000;
+    
+}
+.header-nav-logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 2.5rem;
+    color: #fff;
+    padding: 1rem 2rem;
+}
+.header-nav-logo a:hover{
+    color: #BC02CB;
+    font-size: 2.7rem;
+    transition: 0.3s;
+}
+.header-nav-logo a{
+    text-decoration: none;
+    color: #fff;
+}
+.bi-cart-dash{
+    font-size: 30px;
+}
+.header-nav-login{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #fff;
+}
+.header-nav-login-container{
+    display: flex;
+    align-items: center;
+    padding: 1rem 1rem;
+    margin-right: 1.5rem;
+    gap: 1.5rem;
+    font-size: 1.5rem;
+}
+.header-nav-login-container a{
+    text-decoration: none;
+    color: #fff;
+}
+.header-nav-login-container a:hover{
+    color: #BC02CB;
+}
+.header-nav-login i:hover{
+    color: #BC02CB;
+    cursor: pointer;
+}
+.header-img-container{
+    width: 100%;
+}
+.header-img-container img{
+    width: 100%;
+    height: 80vh;
+}
+.header-nav-bot-item{
+    display: flex;
+    list-style-type: none;
+    font-size: 2rem;
+    justify-content: space-around;
+    padding: 1.5rem;
+}
+.header-nav-bot-item a{
+    color: #fff;
+    text-decoration: none;
+}
+.header-nav-bot-item a:hover{
+    color: #BC02CB;
+    transition: 0.5s;
+}
+.section-nosotros{
+    text-align: center;
+    color: #fff;
+}
+.section-nosotros a{
+    text-decoration: none;
+    color: #BC02CB;
+}
+.section-nosotros-main{
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    width: 100%;
+    padding: 2rem;
+}
+.section-nosotros-parr{
+    padding-top: 1rem;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 2rem;
+}
+.section-nosotros-parr span{
+    font-size: 2.5rem;
+}
+.form-container{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    background-image: url(/src/img/fotoperfecta.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.form{
+    display: flex;
+    background-color: #000;
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px #fff solid;
+    padding: 2rem;
+    border-radius: 15px;
+    min-width: 500px;
+}
+.form-contacto{
+    text-align: center;
+    color: #fff;
+}
+.form input, textarea{
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: #000;
+    outline: none;
+    color: #fff;
+    border: 2px #fff solid;
+}
+form input::placeholder{
+    color: #ddd;
+}
+form textarea::placeholder{
+    color: #ddd;
+}
+#submit{
+    border: 2px #fff solid;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 5px;
+    text-align: center;
+}
+#submit:hover{
+    color: #BC02CB;
+}
+.footer-container{
+    border-top: 2px #fff solid;
+    display: flex;
+    padding: 1rem;
+}
+.footer-logo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    color: #fff;
+    padding: 1rem 2rem;
+}
+.footer-logo a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer-logo a:hover{
+    color: #BC02CB;
+    transition: 0.3s;
+}
+.footer-menu{
+    width: 50%;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-menu h4{
+    text-decoration: underline;
+}
+.footer-menu li{
+   list-style: none;
+}
+.footer-menu a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer-menu a:hover{
+    color: #BC02CB;
+    text-decoration: none;
+}
+.copyright-container{
+    text-align: center;
+    color: #ddd;
+}
+.form-result p{
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #fff;
+}
+
+/* products.html css */
+.header-products{
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    height: 480px;
+}
+.products-main-container{
+    width: 80%;
+    background-color: #ccc;
+    
+    margin: 0 auto;
+}
+.products-main{
+    background-color: #bbb;
+}
+.products-main-title{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.products-main-title h2{
+    margin-top: 2rem;
+    text-shadow: 2px 2px 30px;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 3rem;
+}
+.products-filter{
+    text-align: center;
+    margin-top: 1rem;
+}
+.products-main-products{
+    display: flex;
+    justify-content: center;
+}
+.products-main-cards{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+}
+.products-main-cards>.card{
+    margin: 1rem;
+}
+.text-success{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.shopping-cart-header {
+    border-bottom: 1px solid #888;
+}
+.shopping-cart{
+    background-color: #fff;
+    text-align: center;
+}
+.shopping-cart-items {
+    padding: 20px 0px;
+  }
+.shopping-cart-image {
+    max-width: 80px;
+    border-radius: 20px;
+}
+.shopping-cart-total{
+    padding-bottom: 1rem;
+}
+.shopping-cart-total > p{
+    font-size: 1.5rem;
+}
+.shopping-cart-quantity-input {
+    max-width: 45px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #eee;
+    padding: 5px;
+}
+#buttons{
+   display: flex;
+   justify-content: center;
+}
+#buttons > button{
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    margin-left: 1rem;
+    padding: 12px 16px;
+    background-color:#000;
+    color: #ddd;
+    cursor: pointer;
+    border-radius: 3rem;
+}
+#buttons > button:hover{
+    color: #BC02CB;
+}
+#buttons >button:focus{
+    color: #BC02CB;
+}
+/* Medias index.html */
+@media screen and (max-width: 768px){
+    
+    .header-nav-logo a{
+        font-size: 2.3rem;
+    }
+    .header-nav-logo a:hover{
+        color: #BC02CB;
+        font-size: 2.3rem;
+    }
+    .form{
+        min-width: 500px;
+    }
+    .form-container{
+        background-position: right;
+    }
+    .section-nosotros-parr{
+        font-size: 1.5rem;
+    }
+    .footer-logo a{
+        font-size: 1.6rem;
+    }
+    #buttons > button{
+        padding: 10px;
+    }
+    #buttons{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 629px) {
+    .header-nav-logo a{
+        font-size: 2rem;
+    }
+}
+
+/* Filter CSS */
+.hidden{
+    display: none;
+}
